@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageClass;
+package CUENTA;
 
 /**
  * Realizar una clase llamada Cuenta (bancaria) que debe tener como mínimo los atributos:
@@ -70,3 +70,44 @@ public class Ej05_Cuenta {
     
     
 }
+
+
+
+//public class Cuenta {
+//    
+//    
+//
+//    public Cuenta() {
+//    }
+//
+//    public int getNumCuenta() {
+//        return numCuenta;
+//    }
+//
+//    public long getDNI() {
+//        return DNI;
+//    }
+//
+//    public int getSaldoActual() {
+//        return saldoActual;
+//    }
+//
+//    public void setNumCuenta(int numCuenta) {
+//        this.numCuenta = numCuenta;
+//    }
+//
+//    public void setDNI(long DNI) {
+//        this.DNI = DNI;
+//    }
+//
+//    public void setSaldoActual(int saldoActual) {
+//        this.saldoActual = saldoActual;
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Estos son los datos de tu cuenta: " + "Tu número de cuenta es= " + numCuenta + ", Tu DNI es= " + DNI + ", Tu Saldo Actual es= " + saldoActual + '}';
+//    }
+//    
+//    
+//}

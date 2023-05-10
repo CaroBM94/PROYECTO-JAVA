@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageService;
+package CIRCUNFERENCIA;
 
-import PackageClass.Ej2_Circunferencia;
+import CIRCUNFERENCIA.Ej2_Circunferencia;
 import java.util.Scanner;
 
 /**

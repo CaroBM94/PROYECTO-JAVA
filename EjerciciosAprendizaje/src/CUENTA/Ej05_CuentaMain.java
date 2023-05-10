@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package CUENTA;
 
-import PackageClass.Ej05_Cuenta;
-import PackageService.Ej05_CuentaServicio;
+import CUENTA.Ej05_Cuenta;
 import java.util.Scanner;
 
 /**

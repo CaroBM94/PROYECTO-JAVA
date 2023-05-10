@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package CIRCUNFERENCIA;
 
-import PackageClass.Ej2_Circunferencia;
-import PackageService.Ej2_CircunferenciaService;
+import CIRCUNFERENCIA.Ej2_Circunferencia;
 
 /**
  *

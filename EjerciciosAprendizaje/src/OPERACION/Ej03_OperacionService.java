@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageService;
+package OPERACION;
 
-import PackageClass.Ej03_Operacion;
+import OPERACION.Ej03_Operacion;
 import java.util.Scanner;
 
 /**

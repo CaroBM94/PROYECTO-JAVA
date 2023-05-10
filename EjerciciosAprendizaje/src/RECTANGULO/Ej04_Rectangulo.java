@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageClass;
+package RECTANGULO;
 
 /**Crear una clase Rectángulo que modele rectángulos por medio de un atributo privado
 base y un atributo privado altura. La clase incluirá un método para crear el rectángulo

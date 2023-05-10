@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package OPERACION;
 
-import PackageClass.Ej03_Operacion;
-import PackageService.Ej03_OperacionService;
+import OPERACION.Ej03_Operacion;
 
 /**
  *

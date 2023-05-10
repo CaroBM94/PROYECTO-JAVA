@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package CAFETERA;
 
-import PackageClass.Ej06_Cafetera;
-import PackageService.Ej06_CafeteraService;
+import CAFETERA.Ej06_Cafetera;
 import java.util.Scanner;
 
 /**

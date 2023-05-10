@@ -3,10 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package RECTANGULO;
 
-import PackageClass.Ej04_Rectangulo;
-import PackageService.Ej04_RectanguloService;
+import RECTANGULO.Ej04_Rectangulo;
 
 /**
  *Crear una clase Rectángulo que modele rectángulos por medio de un atributo privado

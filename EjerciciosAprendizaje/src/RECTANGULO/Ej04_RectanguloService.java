@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageService;
+package RECTANGULO;
 
-import PackageClass.Ej04_Rectangulo;
+import RECTANGULO.Ej04_Rectangulo;
 import java.util.Scanner;
 
 /**

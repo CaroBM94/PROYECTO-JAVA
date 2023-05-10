@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageMain;
+package LIBRO;
 
-import PackageClass.Ej1_Libro;
+import LIBRO.Ej1_Libro;
 import java.util.Scanner;
 
 /**

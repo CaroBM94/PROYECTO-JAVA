@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package PackageService;
+package CUENTA;
 
-import PackageClass.Ej05_Cuenta;
+import CUENTA.Ej05_Cuenta;
 import java.util.Scanner;
 
 /**
@@ -29,6 +29,26 @@ h) Método consultarDatos(): permitirá mostrar todos los datos de la cuenta
 public class Ej05_CuentaServicio {
     Scanner leer = new Scanner(System.in);
     
+//    public class CuentaServicio {
+////    
+////    Scanner leer = new Scanner(System.in);
+////    
+////    public Cuenta crearCuenta() {
+////        Cuenta cuenta1 = new Cuenta();
+////        
+////        System.out.println("BIENVENIDO A TU CUENTA BANCARIA");
+////        
+////        System.out.println("\nIngresa tu número de cuenta: ");
+////        cuenta1.setNumCuenta(leer.nextInt());
+////        
+////        System.out.println("\nIngresa tu DNI: ");
+////        cuenta1.setDNI(leer.nextLong());
+////        
+////        System.out.println("\nIngresa tu saldo actual: ");
+////        cuenta1.setSaldoActual(leer.nextInt());
+////        
+////        return cuenta1;
+    
     public Ej05_Cuenta crearCuenta(){
         Ej05_Cuenta cuenta1 = new Ej05_Cuenta();
         
@@ -45,19 +65,33 @@ public class Ej05_CuentaServicio {
     
     //metodo ingresar
     
-    
+    //    public void Ingreso (Cuenta cuenta1) {
+//        System.out.println("Digite la cantidad de dinero que quiere ingresar: ");
+//        cuenta1.setSaldoActual(cuenta1.getSaldoActual()+(int)leer.nextDouble());
+//        System.out.println("La cantidad de dinero que ha ingresado es: ");
     public void ingreso(Ej05_Cuenta cuenta1){
         System.out.println("ingrese el monto a depositar: ");
+        //int ingreso = leer.nextInt();
         cuenta1.setSaldoActual(cuenta1.getSaldoActual()+(int)leer.nextDouble());
-        System.out.println("El monto ingresado es: ");
-       
+
         
     }
     //metodo retirar
-    
+    //    public void Retiro (Cuenta cuenta1) {
+//        System.out.println("Digite la cantidad de dinero que quiere retirar: ");
+//        double retiro = leer.nextDouble();
+//        if (cuenta1.getSaldoActual() < retiro ){
+//            cuenta1.setSaldoActual(0);
+//                 System.out.println("Fondos insuficientes :(");
+//        }else{
+//            cuenta1.setSaldoActual(cuenta1.getSaldoActual()-(int)retiro);
+//             System.out.println("La cantidad de dinero que ha retirado es: "+retiro);
+//        }
+//       
+//    }
     public void retiro(Ej05_Cuenta cuenta1){
         System.out.println("Ingrese el monto a retirar: ");
-        double retiro=leer.nextDouble();
+        double retiro = leer.nextDouble();
         if (cuenta1.getSaldoActual()<retiro) {
             cuenta1.setSaldoActual(0);
             System.out.println("Fondos insuficientes");
@@ -71,6 +105,16 @@ public class Ej05_CuentaServicio {
     
     //metodo extraccion rapida
     
+    //    public void ExtraccionRapida (Cuenta cuenta1){
+//        System.out.println("Ingrese la cantidad de dinero que desesa extraer (máximo el 20%):");
+//        double extraccionRapida = leer.nextDouble();
+//        if (extraccionRapida <= (cuenta1.getSaldoActual()*0.20) ){
+//            cuenta1.setSaldoActual(cuenta1.getSaldoActual()-(int)extraccionRapida);
+//            System.out.println("La cantidad de dinero que has retirado es: "+extraccionRapida);
+//        }else{
+//            System.out.println("La cantidad de dinero que quieres retirar supera el 20% :(");
+//        }
+//    }
     public void extraccionRapida(Ej05_Cuenta cuenta1){
         System.out.println("Ingrese el monto que desea extraer: ");
         double extraccionRapida = leer.nextDouble();
@@ -96,3 +140,83 @@ public class Ej05_CuentaServicio {
     }
     
 }
+//package Servicio;
+//
+//import Objeto.Cuenta;
+//import java.util.Scanner;
+//
+///**
+// *
+// * @author sacevedo
+// */
+//public class CuentaServicio {
+//    
+//    Scanner leer = new Scanner(System.in);
+//    
+//    public Cuenta crearCuenta() {
+//        Cuenta cuenta1 = new Cuenta();
+//        
+//        System.out.println("BIENVENIDO A TU CUENTA BANCARIA");
+//        
+//        System.out.println("\nIngresa tu número de cuenta: ");
+//        cuenta1.setNumCuenta(leer.nextInt());
+//        
+//        System.out.println("\nIngresa tu DNI: ");
+//        cuenta1.setDNI(leer.nextLong());
+//        
+//        System.out.println("\nIngresa tu saldo actual: ");
+//        cuenta1.setSaldoActual(leer.nextInt());
+//        
+//        return cuenta1;
+//    }
+//    
+//    //Método ingresar
+//    
+//    public void Ingreso (Cuenta cuenta1) {
+//        System.out.println("Digite la cantidad de dinero que quiere ingresar: ");
+//        cuenta1.setSaldoActual(cuenta1.getSaldoActual()+(int)leer.nextDouble());
+//        System.out.println("La cantidad de dinero que ha ingresado es: ");
+//        
+//        }
+//    //Método retirar
+//    
+//    public void Retiro (Cuenta cuenta1) {
+//        System.out.println("Digite la cantidad de dinero que quiere retirar: ");
+//        double retiro = leer.nextDouble();
+//        if (cuenta1.getSaldoActual() < retiro ){
+//            cuenta1.setSaldoActual(0);
+//                 System.out.println("Fondos insuficientes :(");
+//        }else{
+//            cuenta1.setSaldoActual(cuenta1.getSaldoActual()-(int)retiro);
+//             System.out.println("La cantidad de dinero que ha retirado es: "+retiro);
+//        }
+//       
+//    }
+//    
+//    //Método extracción rápida
+//    
+//    public void ExtraccionRapida (Cuenta cuenta1){
+//        System.out.println("Ingrese la cantidad de dinero que desesa extraer (máximo el 20%):");
+//        double extraccionRapida = leer.nextDouble();
+//        if (extraccionRapida <= (cuenta1.getSaldoActual()*0.20) ){
+//            cuenta1.setSaldoActual(cuenta1.getSaldoActual()-(int)extraccionRapida);
+//            System.out.println("La cantidad de dinero que has retirado es: "+extraccionRapida);
+//        }else{
+//            System.out.println("La cantidad de dinero que quieres retirar supera el 20% :(");
+//        }
+//    }
+//    
+//    //Método consultar saldo
+//    
+//    public void ConsultarSaldo (Cuenta cuenta1){
+//        System.out.println("Su saldo actual es: "+cuenta1.getSaldoActual());
+//        
+//        
+//    }
+//    
+//    //Método consultar datos
+//    
+//    public void ConsultarDatos (Cuenta cuenta1){
+//        System.out.println(cuenta1.toString());
+//    }
+//}
